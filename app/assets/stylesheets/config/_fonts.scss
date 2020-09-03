@@ -1,9 +1,24 @@
 // Import Google fonts
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:400,100,300,700,500");
+// @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:400,100,300,700,500");
+// @import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=B612+Mono&family=Questrial&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Dekko&family=Delius+Unicase:wght@400;700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+// // @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,300&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Kavivanar&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Cutive+Mono&family=Dawning+of+a+New+Day&family=Mr+De+Haviland&family=Playfair+Display:ital@1&family=Special+Elite&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@100&family=Open+Sans+Condensed:wght@300&display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Work+Sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Work+Sans:400,700&display=swap');
 
 // Define fonts for body and headers
-$body-font: "Open Sans", "Helvetica", "sans-serif";
-$headers-font: "Raleway", "Helvetica", "sans-serif";
+// $body-font: "Open Sans", "Helvetica", "sans-serif";
+// $headers-font: "Raleway", "Helvetica", "sans-serif", "monospace", "cursive";
+
+$body-font: "Work Sans", "Helvetica", "sans-serif";
+$headers-font: "Nunito", "Helvetica", "sans-serif";
 
 // To use a font file (.woff) uncomment following lines
 // @font-face {
@@ -14,3 +29,10 @@ $headers-font: "Raleway", "Helvetica", "sans-serif";
 //        font-url('FontFile.ttf') format('truetype')
 // }
 // $my-font: "Font Name";
+// font-family: 'B612 Mono', monospace;
+// font-family: 'Questrial', sans-serif;
+// font-family: 'Delius Unicase', cursive;
+// font-family: 'Dekko', cursive;
+//font-family: 'Montserrat', sans-serif;
+// font-family: 'Comic Neue', cursive;
+// font-family: 'Kavivanar', cursive;

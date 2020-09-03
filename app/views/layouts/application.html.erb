@@ -10,10 +10,26 @@
     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
   </head>
   <body>
+    <div onscroll="myFunction()">
     <%= render 'shared/navbar' %>
     <%= render 'shared/flashes' %>
     <%= yield %>
+    <%= render 'shared/footer' %>
     <%= javascript_include_tag 'application' %>
     <%= javascript_pack_tag 'application' %>
+    </div>
+
+    <script>
+
+      if(function myFunction() {
+        const navbar = list.querySelector("navbar");
+            navbar.css({"background-color":"white"});
+          else
+            navbar.css({"background-color":"transparent"});
+       }
+      }
+
+
+    </script>
   </body>
 </html>

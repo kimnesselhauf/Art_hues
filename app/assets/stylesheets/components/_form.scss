@@ -1,0 +1,87 @@
+.hidden{
+  display: none;
+}
+
+.name-email{
+  display: flex;
+  justify-content: center;
+}
+
+
+.field{
+  text-align: center;
+}
+
+.field-name{
+  width: 285px;
+  height: 50px;
+  background-color: #E8EDFE;
+  margin-right: 15px;
+  border-style: none;
+  padding-left: 10px;
+}
+
+.field-email{
+  width: 285px;
+  height: 50px;
+  background-color: #E8EDFE;
+  margin-left: 15px;
+  border-style: none;
+  padding-left: 10px;
+}
+
+.field-tel{
+  width: 600px;
+  height:50px;
+  background-color: #E8EDFE;
+  border-style: none;
+  padding-left: 10px;
+}
+
+.field-message{
+  margin: 10px;
+  width: 600px;
+  height:300px;
+  background-color: #E8EDFE;
+  border-style: none;
+  padding-left: 10px;
+}
+
+.actions{
+
+
+      // background-color: #235053;
+
+      // a{
+      //   padding: 10px;
+      //   border-radius: 4px;
+      //   color: white;
+      //   font-weight: 200;
+      //   font-size: 20px;
+      //   opacity: 100%;
+      //   text-decoration: none;
+      // }
+
+
+
+text-align: center;
+  input{
+
+  margin: 10px;
+    background-color: #FFC45F;
+      border: none;
+      opacity:100%;
+border-radius: 30px;
+    padding: 5px 40px;
+
+        color: white;
+        font-weight: 200;
+        font-size: 20px;
+        opacity: 100%;
+        text-decoration: none;
+
+  }
+}
+.actions:hover{
+    opacity:90%;
+  }

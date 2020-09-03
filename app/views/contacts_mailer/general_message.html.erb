@@ -1,0 +1,12 @@
+<p> <%=@contact.message%> </p>
+
+<p>Absender: <%=@contact.name%></p>
+<p>E-mail: <%=@contact.email%></p>
+
+<% if @contact.telephonenumber.present?%>
+ <p>Tel.: <%=@contact.telephonenumber%></p>
+<% else %>
+<p>Es wurde keine Telefonnummer hinterlassen</p>
+<% end %>
+
+

@@ -1,0 +1,183 @@
+.preis-container{
+  padding-top: 100px;
+  text-align: center;
+}
+
+// .step-1{
+//   display:flex;
+// }
+
+.saisonplan{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom:40px;
+}
+
+.box-a{
+  padding: 20px;
+  background-color:red;
+  margin: 10px;
+}
+
+.box-b{
+  padding: 20px;
+  background-color: yellow;
+  margin: 10px;
+}
+
+.box-c{
+  padding: 20px;
+  background-color: green;
+  margin: 10px;
+}
+
+.box-d{
+  padding: 20px;
+  background-color: blue;
+  margin: 10px;
+}
+
+.mietpreise-header{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.mietpreise{
+  display: flex;
+  padding: 10px;
+  padding-top: 0px;
+  justify-content: center;
+  margin-bottom:40px;
+}
+
+.saisonzeit{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: baseline;
+}
+
+.saisonzeit-headers-header{
+  margin: 20px;
+  padding: 10px 30px;
+  margin-left: 0px;
+  opacity:100%;
+}
+
+.saisonzeit-headers{
+  padding: 10px 30px;
+  margin: 0px;
+  opacity:100%;
+}
+
+.saisonzeit-a-header{
+  margin: 20px;
+  padding: 10px 38px;
+  background-color: #F69865;
+  margin-left: 0px;
+  opacity:100%;
+}
+
+.saisonzeit-b-header{
+  padding: 10px 38px;
+  background-color: #F26418;
+  margin: 20px;
+  margin-left: 0px;
+  opacity:100%;
+}
+
+.saisonzeit-c-header{
+  padding: 10px 38px;
+  background-color: #AE430A;
+  margin: 20px;
+  margin-left: 0px;
+  opacity:100%;
+}
+
+.saisonzeit-d-header{
+  padding: 10px 38px;
+  background-color: #4E1E04;
+  margin: 20px;
+  margin-left: 0px;
+  opacity:100%;
+}
+
+.saisonzeit-a{
+  padding: 10px 30px;
+  background-color: red;
+  margin: 0px;
+  opacity:100%;
+}
+
+.saisonzeit-b{
+  padding: 10px 30px;
+  background-color: yellow;
+  margin: 0px;
+  opacity:100%;
+}
+
+.saisonzeit-c{
+  padding: 10px 30px;
+  background-color: green;
+  margin: 0px;
+  opacity:100%;
+}
+
+.saisonzeit-d{
+  padding: 10px 30px;
+  background-color: blue;
+  margin: 0px;
+  opacity:100%;
+}
+
+.waesche{
+  margin-top: 80px;
+  align-content: center;
+}
+
+.endreinigung-header{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+
+  p{
+    padding-right: 20px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    opacity: 100%;
+  }
+}
+
+.endreinigung{
+   display: flex;
+   justify-content: center;
+   margin-bottom:50px;
+}
+
+.endreinigung-app{
+   display: flex;
+   flex-direction: column;
+   // padding-right: 30px;
+   a{
+    color: black;
+   }
+}
+
+.endreinigung-in-euro{
+  padding: 0px 50px;
+  p{
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 21px;
+  }
+}
+
+.safe-img{
+  height: 250px;
+  padding: 20px;
+  padding-left: 40px;
+}
