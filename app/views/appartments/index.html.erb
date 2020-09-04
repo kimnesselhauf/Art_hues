@@ -1,130 +1,150 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
-  <div class="container">
-    <h1>Unsere Appartments im Überblick</h1>
+<div class="cards-container">
+  <h1 style="margin-top: 100px; text-align: center;">Unsere Appartments im Überblick</h1>
+  <div class="row row-cols-1 row-cols-md-2">
+  <div class="col mb-4">
+    <div class="card" style="margin: 20px 20px 20px 100px;">
+     <div class="card-img-top w3-hover-opacity" id="img01" style="background-image: url('<%= image_path "app-3.jpeg"%>'); width: auto;height: 300px; object-fit: cover; cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Appartment 1</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <button class="home-app-btn" style="margin: 6px;"><%= link_to "Kontakt", contacts_new_path, style: "font-size: 15px" %></button>
+        <button class="home-app-btn" style="margin: 6px;"><a href="http://visitenkarten.im-web.de/55004/belegung.php" target="_blank" style="font-size: 15px">Jetzt Buchen</a></button>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card" style="margin: 20px 100px 20px 20px;">
+     <div class="card-img-top" style="background-image: url('<%= image_path "app-3.jpeg" %>'); width: auto;height: 300px; object-fit: cover">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Appartment 2</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <button class="home-app-btn" style="margin: 6px;"><%= link_to "Kontakt", contacts_new_path, style: "font-size: 15px" %></button>
+        <button class="home-app-btn" style="margin: 6px;"><a href="http://visitenkarten.im-web.de/55004/belegung.php" target="_blank" style="font-size: 15px">Jetzt Buchen</a></button>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card" style="margin: 20px 20px 20px 100px;">
+     <div class="card-img-top" style="background-image: url('<%= image_path "app-3.jpeg" %>'); width: auto;height: 300px; object-fit: cover">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Appartment 3</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <button class="home-app-btn" style="margin: 6px;"><%= link_to "Kontakt", contacts_new_path, style: "font-size: 15px" %></button>
+        <button class="home-app-btn" style="margin: 6px;"><a href="http://visitenkarten.im-web.de/55004/belegung.php" target="_blank" style="font-size: 15px">Jetzt Buchen</a></button>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card" style="margin: 20px 100px 20px 20px;">
+     <div class="card-img-top" style="background-image: url('<%= image_path "app-3.jpeg" %>'); width: auto;height: 300px; object-fit: cover">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Appartment 4</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <button class="home-app-btn" style="margin: 6px;"><%= link_to "Kontakt", contacts_new_path, style: "font-size: 15px" %></button>
+        <button class="home-app-btn" style="margin: 6px;"><a href="http://visitenkarten.im-web.de/55004/belegung.php" target="_blank" style="font-size: 15px">Jetzt Buchen</a></button>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card" style="margin: 20px 20px 20px 100px;">
+     <div class="card-img-top" style="background-image: url('<%= image_path "app-3.jpeg" %>'); width: auto;height: 300px; object-fit: cover">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Appartment 5</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <button class="home-app-btn" style="margin: 6px;"><%= link_to "Kontakt", contacts_new_path, style: "font-size: 15px" %></button>
+        <button class="home-app-btn" style="margin: 6px;"><a href="http://visitenkarten.im-web.de/55004/belegung.php" target="_blank" style="font-size: 15px">Jetzt Buchen</a></button>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card" style="margin: 20px 100px 20px 20px;">
+     <div class="card-img-top" style="background-image: url('<%= image_path "app-3.jpeg" %>'); width: auto;height: 300px; object-fit: cover">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Appartment 6</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <button class="home-app-btn" style="margin: 6px;"><%= link_to "Kontakt", contacts_new_path, style: "font-size: 15px" %></button>
+        <button class="home-app-btn" style="margin: 6px;"><a href="http://visitenkarten.im-web.de/55004/belegung.php" target="_blank" style="font-size: 15px">Jetzt Buchen</a></button>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card" style="margin: 20px 20px 20px 100px;">
+     <div class="card-img-top" style="background-image: url('<%= image_path "app-3.jpeg" %>'); width: auto;height: 300px; object-fit: cover">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Appartment 7</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <button class="home-app-btn" style="margin: 6px;"><%= link_to "Kontakt", contacts_new_path, style: "font-size: 15px" %></button>
+        <button class="home-app-btn" style="margin: 6px;"><a href="http://visitenkarten.im-web.de/55004/belegung.php" target="_blank" style="font-size: 15px">Jetzt Buchen</a></button>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card" style="margin: 20px 100px 20px 20px;">
+     <div class="card-img-top" style="background-image: url('<%= image_path "app-3.jpeg" %>'); width: auto;height: 300px; object-fit: cover">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Appartment 8</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <button class="home-app-btn" style="margin: 6px;"><%= link_to "Kontakt", contacts_new_path, style: "font-size: 15px" %></button>
+        <button class="home-app-btn" style="margin: 6px;"><a href="http://visitenkarten.im-web.de/55004/belegung.php" target="_blank" style="font-size: 15px">Jetzt Buchen</a></button>
+      </div>
+    </div>
+  </div>
 </div>
- <div class="cards-container-1">
-    <div class="card-appartment parent">
-      <%= link_to appnumbers_one_path do %>
-      <%= image_tag "zimmer.jpg", class: "card-img-top", alt: "ups...da gab es wohl ein problem beim laden" %>
-      <% end %>
+</div>
 
-      <div class="div">
-      <div class="trip-text">
-        <h5>App. 1</h5>
-        <p style="margin: 0 ">welcome to athen</p>
-      </div>
-      <div class="price">
-        <h5>$999</h5>
-      </div>
-      </div>
-    </div>
+<div id="modal01" class="w3-modal">
+ <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+  <header class="w3-container w3-blue">
+   <span onclick="document.getElementById('modal01').style.display='none'"
+   class="w3-button w3-blue w3-xlarge w3-display-topright">&times;</span>
+   <h2>Header</h2>
+  </header>
 
-    <div class="card-appartment parent">
-      <%= link_to appnumbers_two_path do %>
-      <%= image_tag "zimmer.jpg", class: "card-img-top", alt: "ups...da gab es wohl ein problem beim laden" %>
-      <% end %>
-      <div class="div">
-      <div class="trip-text">
-        <h5>App. 2</h5>
-        <p style="margin: 0 ">welcome to athen</p>
-      </div>
-      <div class="price">
-        <h5>$999</h5>
-      </div>
-      </div>
-    </div>
-
-    <div class="card-appartment parent">
-      <%= link_to appnumbers_tree_path do %>
-      <%= image_tag "zimmer.jpg", class: "card-img-top", alt: "ups...da gab es wohl ein problem beim laden" %>
-      <% end %>
-      <div class="div">
-      <div class="trip-text">
-        <h5>App. 2</h5>
-        <p style="margin: 0 ">welcome to athen</p>
-      </div>
-      <div class="price">
-        <h5>$999</h5>
-      </div>
-      </div>
-    </div>
-
-    <div class="card-appartment parent">
-      <%= link_to appnumbers_four_path do %>
-      <%= image_tag "zimmer.jpg", class: "card-img-top", alt: "ups...da gab es wohl ein problem beim laden" %>
-      <% end %>
-      <div class="div">
-      <div class="trip-text">
-        <h5>App. 3</h5>
-        <p style="margin: 0 ">welcome to athen</p>
-      </div>
-      <div class="price">
-        <h5>$999</h5>
-      </div>
-      </div>
-    </div>
+  <div class="w3-bar w3-border-bottom">
+   <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'London')">London</button>
+   <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Paris')">Paris</button>
+   <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Tokyo')">Tokyo</button>
   </div>
 
-
-  <div class="cards-container-2">
-    <div class="card-appartment parent">
-      <%= link_to appnumbers_five_path do %>
-      <%= image_tag "zimmer.jpg", class: "card-img-top", alt: "ups...da gab es wohl ein problem beim laden" %>
-      <% end %>
-      <div class="div">
-      <div class="trip-text">
-        <h5>App. 1</h5>
-        <p style="margin: 0 ">welcome to athen</p>
-      </div>
-      <div class="price">
-        <h5>$999</h5>
-      </div>
-      </div>
-    </div>
-
-    <div class="card-appartment parent">
-      <%= link_to appnumbers_six_path do %>
-      <%= image_tag "zimmer.jpg", class: "card-img-top", alt: "ups...da gab es wohl ein problem beim laden" %>
-      <% end %>
-      <div class="div">
-      <div class="trip-text">
-        <h5>App. 2</h5>
-        <p style="margin: 0 ">welcome to athen</p>
-      </div>
-      <div class="price">
-        <h5>$999</h5>
-      </div>
-      </div>
-    </div>
-
-    <div class="card-appartment parent">
-      <%= link_to appnumbers_seven_path do %>
-      <%= image_tag "zimmer.jpg", class: "card-img-top", alt: "ups...da gab es wohl ein problem beim laden" %>
-      <% end %>
-      <div class="div">
-      <div class="trip-text">
-        <h5>App. 2</h5>
-        <p style="margin: 0 ">welcome to athen</p>
-      </div>
-      <div class="price">
-        <h5>$999</h5>
-      </div>
-      </div>
-    </div>
-
-    <div class="card-appartment parent">
-      <%= link_to appnumbers_eight_path do %>
-      <%= image_tag "zimmer.jpg", class: "card-img-top", alt: "ups...da gab es wohl ein problem beim laden" %>
-      <% end %>
-      <div class="div">
-      <div class="trip-text">
-        <h5>App. 3</h5>
-        <p style="margin: 0 ">welcome to athen</p>
-      </div>
-      <div class="price">
-        <h5>$999</h5>
-      </div>
-      </div>
-    </div>
+  <div id="London" class="w3-container city">
+   <h1>London</h1>
+   <p>London is the most populous city in the United Kingdom, with a metropolitan area of over 9 million inhabitants.</p>
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
   </div>
+
+  <div id="Paris" class="w3-container city">
+   <h1>Paris</h1>
+   <p>Paris is the capital of France.</p>
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+
+  <div id="Tokyo" class="w3-container city">
+   <h1>Tokyo</h1>
+   <p>Tokyo is the capital of Japan.</p><br>
+  </div>
+
+  <div class="w3-container w3-light-grey w3-padding">
+   <button class="w3-button w3-right w3-white w3-border"
+   onclick="document.getElementById('modal01').style.display='none'">Close</button>
+  </div>
+ </div>
+</div>
+<script>
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+}
+</script>
+
 

@@ -1,64 +1,7 @@
-.cards-container-1{
-  display: flex;
-  justify-content: center;
+.cards-container{
+  margin-top: 100px;
 }
 
-.cards-container-2{
-  display: flex;
-  justify-content: center;
-}
-// .card-img-top{
-//   width:100%;
-//   height:50%;
-// }
-
-.card-trip img{
-  object-fit: cover;
-}
-
-.card-trip{
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-}
-
-.trip-text{
-  padding-left: 20px;
-  padding-bottom: 20px;
-}
-
-h2 {
-  margin-top: 20px;
-  margin-bottom: 0;
-}
-
-.price{
-  padding-right: 30px;
-  margin-top: 0;
-  padding-bottom: 30px;
-}
-
-.div{
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-}
-
-.parent{
-  position: relative;
-}
-
-.child{
-
-}
-
-.card-img-top{
-  height: 230px;
-  width: 230px;
-}
-
-.card-appartment{
-  // height: 200px;
-  width: 200px;
-  margin: 40px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
-
+.app1{
+  height:300px;
 }
