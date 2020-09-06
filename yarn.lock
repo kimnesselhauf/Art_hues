@@ -4809,7 +4809,7 @@ node-sass@^4.13.0:
     get-stdin "^4.0.1"
     glob "^7.0.3"
     in-publish "^2.0.0"
-    lodash "^4.17.15"
+    lodash "^4.17.19"
     meow "^3.7.0"
     mkdirp "^0.5.1"
     nan "^2.13.2"
@@ -6541,7 +6541,7 @@ sass-graph@^2.2.4:
   integrity sha1-E/vWPNHK8JCLn9k0dq1DpR0eC0k=
   dependencies:
     glob "^7.0.0"
-    lodash "^4.0.0"
+    lodash "^4.17.19"
     scss-tokenizer "^0.2.3"
     yargs "^7.0.0"
 
