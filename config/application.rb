@@ -1,4 +1,4 @@
-gitrequire_relative 'boot'
+# gitrequire_relative 'boot'
 
 require 'rails/all'
 
