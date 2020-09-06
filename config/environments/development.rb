@@ -75,7 +75,7 @@ config.action_mailer.default_options = {from: 'ARThues@anfrage.com'}
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
 
-
+  config.webpacker.check_yarn_integrity = false
 
 
 
