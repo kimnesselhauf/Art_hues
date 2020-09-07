@@ -1,11 +1,11 @@
 class FlatsController < ApplicationController
   def index
-@flats = Flat.where.not(latitude: nil, longitude: nil)
+# @flats = Flat.where.not(latitude: nil, longitude: nil)
 
-    @markers = @flats.map do |flat|
-      {
-        lat: flat.latitude,
-        lng: flat.longitude#,
+#     @markers = @flats.map do |flat|
+#       {
+#         lat: flat.latitude,
+#         lng: flat.longitude#,
 
     # @flats = Flat.geocoded # returns flats with coordinates
 
