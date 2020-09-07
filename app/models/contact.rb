@@ -9,7 +9,8 @@ class Contact < ApplicationRecord
   # validates :firstname, :presence => :true
   # validates :lastname, :presence => :true
   validates :name, :presence => :true
-  # validates :telephonenumber, :presence => :true
+
+  validates :telephonenumber, :presence => :true
 
   def headers
     {
