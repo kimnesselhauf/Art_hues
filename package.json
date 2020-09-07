@@ -2,7 +2,7 @@
   "name": "art_hues",
   "private": true,
   "dependencies": {
-    "@rails/webpacker": "^4.2.2",
+    "@rails/webpacker": "^5.2.1",
     "angular": "^1.7.9",
     "angular-animate": "^1.7.9",
     "angular-aria": "^1.7.9",
