@@ -21,7 +21,7 @@ gem 'figaro'
 
 gem 'mail_form'
 
-
+gem 'rack-timeout', require: "rack/timeout/base"
 
 group :development do
   gem 'web-console', '>= 3.3.0'
