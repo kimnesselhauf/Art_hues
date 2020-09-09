@@ -5,42 +5,43 @@
 #   git config --global core.excludesfile '~/.gitignore_global'
 
 # Ignore bundler config.
-/.bundle
-
+.bundle
+log/*.log
 # Ignore all logfiles and tempfiles.
-/log/*
-/tmp/*
-!/log/.keep
-!/tmp/.keep
-
+log/*
+tmp/**/*
+tmp/*
+!log/.keep
+!tmp/.keep
+*.swp
+.DS_Store
+public/assets
+public/packs
+public/packs-test
+node_modules
+yarn-error.log
+.byebug_history
+.env*
 # Ignore uploaded files in development
 /storage/*
 !/storage/.keep
 
-/node_modules
-/yarn-error.log
-
-/public/assets
-.byebug_history
-
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
-/public/packs
-/public/packs-test
+
+
 /node_modules
-/yarn-error.log
+
 yarn-debug.log*
 .yarn-integrity
 
 # Ignore .env file containing credentials.
-.env*
+
 
 # Ignore Mac and Linux file system files
-*.swp
-.DS_Store
+
 
 # Ignore application configuration
 /config/application.yml
-.env*
-.env*
+

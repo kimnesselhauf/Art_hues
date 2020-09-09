@@ -16,14 +16,15 @@ gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
 gem 'geocoder'
+gem 'faker'
+# gem 'figaro'
 
-gem 'figaro'
+# gem 'mail_form'
 
-gem 'mail_form'
-
-gem 'rack-timeout', require: "rack/timeout/base"
-
-gem 'grape'
+# gem 'rack-timeout', require: "rack/timeout/base"
+gem 'dotenv-rails', groups: [:development, :test]
+gem 'carrierwave', '~> 1.2'
+# gem 'grape'
 gem 'cloudinary', '~> 1.16.0'
 
 group :development do
@@ -36,9 +37,8 @@ group :development, :test do
   gem 'listen', '~> 3.0.5'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'dotenv-rails'
 end
 
-group :test do
-  gem 'minitest-reporters'
-end
+# group :test do
+#   gem 'minitest-reporters'
+# end
