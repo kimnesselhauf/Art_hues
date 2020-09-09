@@ -1,5 +1,7 @@
 Rails.application.configure do
 
+  config.active_storage.service = :cloudinary
+
   config.action_mailer.delivery_method = :smtp
 # SMTP settings for gmail
 config.action_mailer.smtp_settings = {

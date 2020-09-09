@@ -77,7 +77,7 @@ config.action_mailer.default_options = {from: 'ARThues@anfrage.com'}
 
   config.webpacker.check_yarn_integrity = false
 
-
+  config.active_storage.service = :cloudinary
 
 
 end
