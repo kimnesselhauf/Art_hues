@@ -23,6 +23,8 @@ Rails.application.routes.draw do
   get 'informations/price'
   get 'informations/location'
   get 'informations/contact'
+  get 'informations/contact'
+
   # get 'information/contact'
   # get 'information/price'
   # get 'information/about'
