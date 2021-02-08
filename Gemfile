@@ -23,7 +23,7 @@ gem 'faker'
 
 # gem 'rack-timeout', require: "rack/timeout/base"
 gem 'dotenv-rails', groups: [:development, :test]
-gem 'carrierwave', '~> 1.2'
+gem 'carrierwave', '~> 1.3'
 # gem 'grape'
 gem 'cloudinary', '~> 1.16.0'
 
